@@ -56,27 +56,29 @@ html, body {
 
 .cont0{
     display: flex;
+    width: 60%;
 }
 
 .image1{
+    max-width: 100%;
     height: auto;
-    width: 100%;
     display: block;
     margin: 32px 24px;
-}
-
-.cont0 .text{
-    width: 100%;
 }
 
 .banner h1{
     font-weight: bold;
 }
 
+.banner h2{
+    margin-left: 0;
+}
+
 .banner p{
     text-align: center;
     padding-top: 8px;
     padding-bottom: 8px;
+    margin-left: 0;
     background-color: black;
     color: white;
 }
@@ -92,6 +94,11 @@ html, body {
     width: 60%;
     margin: 0;
     padding: 32px 24px;
+}
+
+.image2 img{
+    max-width: 100%;
+    height: auto;
 }
 
 .image2 h1{
@@ -172,4 +179,81 @@ html, body {
 
 .cont ,h2,h3,p{
     margin-left: 16px;
+}
+
+/*Thesis exhibit*/
+
+.thesis {
+    display: block;
+    background-color: white;
+}
+
+.thesis h1 {
+    width: 100%;
+    text-align: center;
+    margin: 32px 0 32px 0;
+}
+
+.cont4 {
+    width: 60%;
+    height: auto;
+    margin: 0 24px 32px 24px;
+}
+
+.cont4 video{
+    max-width: 100%;
+}
+
+.cont4 h2 {
+    margin: 24px 0 8px 0;
+}
+
+.cont5 {
+    width: 40%;
+}
+
+.img4{
+    width: 35%;
+    height: auto;
+    margin: 16px 16px 16px 16px;
+}
+
+.text4{
+    align-self: center;
+}
+
+.fisma{
+    background-color: gray;
+    display: flex;
+
+}
+
+.now{
+    display: flex;
+
+}
+
+/*Footer*/
+
+footer{
+    margin: 16px 24px 16px 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cont6{
+    display: inline-block;
+}
+
+.cont6 li{
+    text-decoration: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0 16px 0 16px;
+}
+
+.cont6 p{
+    margin-left: 0;
+    padding-left: 0;
+    align-self: center;
 }
