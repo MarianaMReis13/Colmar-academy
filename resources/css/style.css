@@ -54,9 +54,19 @@ html, body {
     background-color: gray;
 }
 
+.cont0{
+    display: flex;
+}
+
 .image1{
-    width: 60%;
+    height: auto;
+    width: 100%;
+    display: block;
     margin: 32px 24px;
+}
+
+.cont0 .text{
+    width: 100%;
 }
 
 .banner h1{
@@ -119,4 +129,47 @@ html, body {
 .text2 p{
     margin-top: 8px;
     margin-bottom: 8px;
+}
+
+/*Learning*/
+.learning {
+    display: block;
+    background-color: gray;
+}
+
+.learning h1{
+    margin: 32px 0 0 0;
+    text-align: center;
+    width: 100%;
+}
+
+.courses{
+    margin: 0 72px 32px 72px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.cont3{
+    margin: 32px 16px 0 16px;
+    background-color: white;
+}
+
+.cont3 img{
+    height: auto;
+    margin-bottom: 16px;
+}
+
+.cont3 h3{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.cont3 p{
+    margin-bottom: 24px;
+}
+
+.cont ,h2,h3,p{
+    margin-left: 16px;
 }
